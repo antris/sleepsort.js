@@ -49,3 +49,7 @@ Sorts an array of numbers using setTimeout. Not very fast on arrays with high nu
 
 	// 102ms later...
 	# => [1, 3, 55, 102]
+
+## TODO
+
+* Synchronous version?
