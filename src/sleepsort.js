@@ -4,6 +4,12 @@
 
 exports.sleepSort = function sleepSort(array, callback) {
 	var i = array.length;
+
+	if (i <= 1) {
+		callback(array);
+		return;
+	}
+
 	var sortedArray = [];
 
 	array.forEach(function(num) {
